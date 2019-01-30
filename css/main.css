@@ -55,7 +55,6 @@ header a {
 	min-height: 97px;
 	-webkit-box-shadow: rgba(255, 255, 255,.3)  0 0px 0 1px;
 	box-shadow:  rgba(255, 255, 255,.3)  0 0px 0 1px;
-	top: 0;
 	background-color: rgba(0, 0, 0,.6);
 	padding: 22px 0px 22px 0px;
 }
@@ -110,4 +109,10 @@ header a {
 	display: block;
 	font-size: 32px;
 	letter-spacing: 1px;
+}
+header h1 {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    font-size: 34px;
 }
