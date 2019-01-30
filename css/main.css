@@ -1,0 +1,83 @@
+/* *::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+} */
+header {
+	background: url(../img/top_bg.jpg) repeat-x center top;
+	min-height: 640px;
+	position: relative;
+	font-family: "BebasBold";
+}
+header a {
+	color: rgb(255, 255, 255);
+}
+.top_line {
+	width: 100%;
+	min-height: 97px;
+	-webkit-box-shadow: rgba(255, 255, 255,.3)  0 0px 0 1px;
+	box-shadow:  rgba(255, 255, 255,.3)  0 0px 0 1px;
+	position: absolute;
+	top: 0;
+	background-color: rgba(0, 0, 0,.6);
+	padding: 22px 0px 22px 0px;
+}
+.top_line a {
+	
+}
+.top_addr {
+	background-image: url(../img/top_map.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 44px;
+	line-height:26px;
+}
+.top_addr strong {
+    color: #d12f22;
+	text-transform: uppercase;
+	display: block;
+	font-size: 31px;
+	
+}
+.top_addr a {
+	font-size: 21px;
+	border-bottom: 1px dashed #ffffff;
+}
