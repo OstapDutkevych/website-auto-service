@@ -61,7 +61,15 @@ header a {
 	padding: 22px 0px 22px 0px;
 }
 .top_line a {
-	
+	font-size: 21px;
+	border-bottom: 1px dashed #ffffff;
+	-webkit-transition: all.25s;
+	-o-transition: all.25s;
+	transition: all.25s;
+}
+.top_line a:hover {
+	font-size: 21px;
+	border-bottom: transparent 1px dashed;
 }
 .top_addr {
 	background-image: url(../img/top_map.png);
@@ -76,8 +84,4 @@ header a {
 	display: block;
 	font-size: 31px;
 	
-}
-.top_addr a {
-	font-size: 21px;
-	border-bottom: 1px dashed #ffffff;
 }
