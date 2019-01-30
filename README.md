@@ -1,4 +1,4 @@
 # website-auto-service
 
 ### Template
-![Dream Music!](gird_bootstrap.jpg "Music")
+![auto-service!](grid_bootstrap.jpg "Auto")
