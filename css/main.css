@@ -55,7 +55,6 @@ header a {
 	min-height: 97px;
 	-webkit-box-shadow: rgba(255, 255, 255,.3)  0 0px 0 1px;
 	box-shadow:  rgba(255, 255, 255,.3)  0 0px 0 1px;
-	position: absolute;
 	top: 0;
 	background-color: rgba(0, 0, 0,.6);
 	padding: 22px 0px 22px 0px;
@@ -76,7 +75,7 @@ header a {
 	background-repeat: no-repeat;
 	background-position: center left;
 	padding-left: 44px;
-	line-height:26px;
+	line-height:30px;
 }
 .top_addr strong {
     color: #d12f22;
@@ -93,11 +92,22 @@ header a {
 .top_line .logo {
 	border-bottom: none;
 	position: absolute;
-	margin-top: -18px;
+	margin-top: -15px;
 }
 .top_line .logo:hover {
 	border-bottom: none;
 }
 .top_call {
-	
+	text-align: right;
+	line-height: 30px;
+}
+.top_call span {
+	color: rgb(255, 255, 255);
+}
+.top_call strong {
+    color: #d12f22;
+	text-transform: uppercase;
+	display: block;
+	font-size: 32px;
+	letter-spacing: 1px;
 }
