@@ -83,5 +83,21 @@ header a {
 	text-transform: uppercase;
 	display: block;
 	font-size: 31px;
+}
+.logo_wrap {
+	position: relative;
+	width: 240px;
+	margin: auto;
+}
+
+.top_line .logo {
+	border-bottom: none;
+	position: absolute;
+	margin-top: -18px;
+}
+.top_line .logo:hover {
+	border-bottom: none;
+}
+.top_call {
 	
 }
