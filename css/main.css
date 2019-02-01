@@ -224,8 +224,104 @@ a.first_button_header {
 }
 .w_left span {
 	font-size: 33px;
-	font-family: "BaseBold";
+	font-family: "BabesBold";
 }
 .w_right {
 	font-family: "RobotoCondensedRegular";
+}
+section {
+	position: relative;
+}
+.our_services {
+	background-color: #191919;
+	padding: 30px 0px 50px 0px;
+	text-align: center;
+}
+.our_services h2 {
+	text-transform: uppercase;
+	color:#c9c9c9;
+	display: inline-block;
+	font-family: "BebasRegular";
+	font-size: 40px;
+}
+
+.our_services h2 strong {
+	color:#ffffff;
+}
+.our_services h2 span {
+	color:#ff0000;
+}
+.our_services img:nth-child(1) {
+	position: absolute;
+	top: 46px;
+	margin: 2px 0 0 -76px;
+}
+.our_services img:nth-child(3) {
+	position: absolute;
+	top: 46px;
+	margin: 2px 0 0 29px;
+}
+.descr_services {
+	text-align: center;
+}
+.service {
+	margin-left: 30px;
+	width: 160px;
+	display: inline-block
+}
+.service a {
+	color: #fff;
+}
+.service_item {
+	border: 1px solid #353535;
+}
+.service_item h4 {
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: "BebasBold";
+	font-size: 20px;
+	margin: 1px 0px 30px 0px;
+}
+.service_item span{
+	background-repeat: no-repeat; 
+	background-position: 50% 50%;
+	display: block;
+	height: 85px;
+	margin: 15px auto 0px;
+}
+.descr_services .service:nth-child(1) {
+	margin-left: 0;
+}
+.first_service span {
+	background-image: url(../img/car_repair_icon.png);
+}
+.second_service span {
+	background-image: url(../img/work_mehanik_icon.png);
+}
+.third_service span {
+	background-image: url(../img/expres_services_icon.png);
+}
+.fourth_service span {
+	background-image: url(../img/diagnostik_icon.png);
+}
+.fifth_service span {
+	background-image: url(../img/slesar_work_icon.png);
+}
+.sixth_service span {
+	background-image: url(../img/repair_plast_icon.png);
+}
+.descr_services {
+	padding: 0px;
+}
+.service a:hover h4,
+.first_service.active h4{
+	text-decoration: underline;
+}
+.first_service.active,
+.service_item:hover{
+	background-color: #2A2A2A;
+}
+.service_toogle {
+    background-color: #212121;
+    height: 20px;
 }
