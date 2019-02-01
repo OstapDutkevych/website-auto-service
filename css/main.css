@@ -280,7 +280,7 @@ section {
 	text-transform: uppercase;
 	font-family: "BebasBold";
 	font-size: 20px;
-	margin: 1px 0px 30px 0px;
+	margin: 1px 0px 20px 0px;
 }
 .service_item span{
 	background-repeat: no-repeat; 
@@ -314,14 +314,27 @@ section {
 	padding: 0px;
 }
 .service a:hover h4,
-.first_service.active h4{
+.first_service.active h4,
+.service:hover h4{
 	text-decoration: underline;
 }
-.first_service.active,
+.service_item.active,
 .service_item:hover{
 	background-color: #2A2A2A;
 }
 .service_toogle {
     background-color: #212121;
-    height: 20px;
+	height: 25px;
+	position: relative;
+	bottom: 20px;
+	background-image: url(../img/white_arrow_icon.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 8%;
+	cursor: pointer;
+}
+.service:hover .service_toogle,
+.service.active .service_toogle{
+	background-color: #353535;
+	background-image: url(../img/red_arrow_icon.png);
 }
