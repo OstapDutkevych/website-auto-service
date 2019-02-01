@@ -127,6 +127,8 @@ header h1 {
 	padding: 0 25px 0 25px;
 	font-size: 20px;
 	border-bottom: 4px solid rgb(170, 16, 5);
+	color: #fff;
+	font-family: "BebasBold";
 }
 .button:hover {
 	background-color: rgb(161, 42, 72);
@@ -269,6 +271,16 @@ section {
 	width: 160px;
 	display: inline-block
 }
+.service_for_toggle {
+	content: "";
+	width: 18px;
+	height: 9px;
+	background-image: url(../img/for_toggle.png);
+	background-size: 20px;
+	position: absolute;
+	margin: 21px 69px;
+	display: none;
+}
 .service a {
 	color: #fff;
 }
@@ -280,7 +292,7 @@ section {
 	text-transform: uppercase;
 	font-family: "BebasBold";
 	font-size: 20px;
-	margin: 1px 0px 20px 0px;
+	margin: 0;
 }
 .service_item span{
 	background-repeat: no-repeat; 
@@ -312,13 +324,14 @@ section {
 }
 .descr_services {
 	padding: 0px;
+	position: relative;	
 }
 .service a:hover h4,
 .first_service.active h4,
 .service:hover h4{
 	text-decoration: underline;
 }
-.service_item.active,
+.service.active,
 .service_item:hover{
 	background-color: #2A2A2A;
 }
@@ -326,7 +339,6 @@ section {
     background-color: #212121;
 	height: 25px;
 	position: relative;
-	bottom: 20px;
 	background-image: url(../img/white_arrow_icon.png);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -337,4 +349,30 @@ section {
 .service.active .service_toogle{
 	background-color: #353535;
 	background-image: url(../img/red_arrow_icon.png);
+}
+.service ul {
+	padding:15px 0;
+	margin: 30px 0 0 0;
+    list-style-type: none;
+    position: absolute;
+    width: 100%;
+	background-color: #353535;
+	font-size: 20px;
+	z-index: 10;
+	display: none;
+	left: 0;
+}
+.service ul li {
+	display: inline-block;
+	font-family: "BebasRegular";
+}
+.service ul li a{
+	padding: 0 15px;
+	text-decoration: underline;
+}
+.service  ul li a:hover{
+	text-decoration: none;
+}
+.descr_service_button_w {
+
 }
