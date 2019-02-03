@@ -331,7 +331,7 @@ section {
 .service:hover h4{
 	text-decoration: underline;
 }
-.service.active,
+.service.active
 .service_item:hover{
 	background-color: #2A2A2A;
 }
@@ -345,6 +345,7 @@ section {
 	background-size: 8%;
 	cursor: pointer;
 }
+
 .service:hover .service_toogle,
 .service.active .service_toogle{
 	background-color: #353535;
@@ -371,8 +372,8 @@ section {
 	text-decoration: underline;
 }
 .service  ul li a:hover{
-	text-decoration: none;
+	text-decoration: block;
 }
 .descr_service_button_w {
-
+	margin-top: 150px;
 }

@@ -1,22 +1,22 @@
 $(document).ready(function() {
 
-	$(".service ul").each(function(){
-		$(this).after("<div class='service_for_toggle'></div>");
-	});
+		$(".service ul").each(function(){
+			$(this).after("<div class='service_for_toggle'></div>");
+		});
 
 	$(".service_toogle").click(function() {
 		if($(this).parent().parent().children("ul").is(":visible")) {
-			$(this).parent().parent().children("ul").sideUp();
+			$(this).parent().parent().children('ul').slideToggle();
 			$(this).parent().parent().children(".service_for_toggle").hide();
 		} else {
 			$("body .descr_services .service > ul, .service_for_toggle").hide();
 			$(".service").removeClass("active");
 			$(this).parent().parent().addClass("active");
 			$(this).parent().parent().children("ul").slideDown();
-			$(this).parent().parent().children(".service_for_toggle").show();
+			$(this).parent().parent().children(".service_for_toggle").slideToggle();
 		}
+
 	});
-});
 	// //Цели для Яндекс.Метрики и Google Analytics
 	// $(".count_element").on("click", (function() {
 	// 	ga("send", "event", "goal", "goal");
@@ -61,14 +61,14 @@ $(document).ready(function() {
 
 	// //Добавляет классы дочерним блокам .block для анимации
 	// //Документация: http://imakewebthings.com/jquery-waypoints/
-	// $(".block").waypoint(function(direction) {
-	// 	if (direction === "down") {
-	// 		$(".class").addClass("active");
-	// 	} else if (direction === "up") {
-	// 		$(".class").removeClass("deactive");
-	// 	};
-	// }, {offset: 100});
-
+	$(".block").waypoint(function(direction) {
+		if (direction === "down") {
+			$(".class").addClass("active");
+		} else if (direction === "up") {
+			$(".class").removeClass("deactive");
+		};
+	}, {offset: 100});
+});
 	// //Плавный скролл до блока .div по клику на .scroll
 	// //Документация: https://github.com/flesler/jquery.scrollTo
 	// $("a.scroll").click(function() {
