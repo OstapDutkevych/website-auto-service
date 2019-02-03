@@ -116,6 +116,7 @@ header h1 {
     margin-top: 65px;
 	font-size: 36px;
 	text-shadow:0 3px rgba(0, 0, 0, 0.55);
+	letter-spacing: 3px;
 }
 
 .button {
@@ -245,6 +246,7 @@ section {
 	display: inline-block;
 	font-family: "BebasRegular";
 	font-size: 40px;
+	letter-spacing: 3px;
 }
 
 .our_services h2 strong {
@@ -375,7 +377,7 @@ section {
 	text-decoration: block;
 }
 .descr_service_button_w {
-	margin-top: 150px;
+	margin-top: 100px;
 }
 article.content {
 	background: #E9E9E9;
@@ -388,6 +390,7 @@ article.content h2.art_header {
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 10px;
+	letter-spacing: 3px;
 }
 
 article h2.art_header::after {
@@ -431,7 +434,63 @@ p.h_descr {
 	color: #050505;
 	text-align: center;
 	font-size: 14px;
+	font-weight: 600;
 }
 .info_about_us .info_item {
 	margin-top: 40px;
+}
+.s_bottom img{
+	max-width: 100%;
+}
+.s_bottom h2 {
+	text-transform: uppercase;
+	color:#050505;
+	font-family: "BebasRegular";
+	font-size: 36px;
+	letter-spacing: 3px;
+}
+.s_bottom p {
+	color: #050505;
+	font-size: 15px;
+	font-weight: 600;
+}
+.s_bottom a {
+	margin-top: 30px;
+	float: right;	
+}
+
+footer {
+    background-color: #2a2a2a;
+    color: #fff;
+    position: relative;
+	top: -2px;
+	padding: 30px 0 30px;
+	font-size: 20px;
+	font-weight: normal;
+}
+footer a {
+	color: #fff;
+	font-family: "BebasBold";
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin-right:22px; 
+}
+.footer_menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	
+}
+.footer_menu ul li{
+	display: inline-block;
+	
+}
+.footer_menu a:hover {
+	text-decoration: none;
+}
+.footer span {
+	display: absolute;
+}
+footer img {
+	float: right;
 }
