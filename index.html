@@ -41,7 +41,8 @@
 					<div class="col-md-4">
 						<div class="top_addr">
 							<strong>Lviv</strong>
-							<a class='fancybox' href="https://www.google.com.ua/maps/@49.8193071,24.0602703,18z?hl=ru">вул. СихIвська 14, корпус 88</a>
+							<a class="show_map" href="#">вул. СихIвська 14, корпус 88</a>
+							<div id="map"></div>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -449,6 +450,7 @@
 		</div>
 	</footer>
 	
+	
 	<div class="hidden"></div>
 	<!-- Mandatory for Responsive Bootstrap Toolkit to operate -->
 	<div class="device-xs visible-xs"></div>
@@ -462,7 +464,7 @@
 	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif] -->
-
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcFfohdsRg81MntoOssr1I4Hr_WosmYWY&callback=initMap"async defer></script>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
@@ -478,6 +480,7 @@
 	<script src="libs/equalheight/jquery.equalheight.js"></script>
 	<script src="libs/stellar/jquery.stellar.min.js"></script>
 	<script src="js/common.js"></script>
+	<script src="js/map.js"></script>
 
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->

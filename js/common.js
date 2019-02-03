@@ -1,3 +1,7 @@
+$(".show_map").click(function() {
+	$(this).parent().children('#map').slideToggle();
+});
+
 $(document).ready(function() {
 
 		$(".service ul").each(function(){
@@ -171,3 +175,4 @@ $(document).ready(function() {
 // 	});
 // });
 // })(jQuery, document, window, ResponsiveBootstrapToolkit);
+
