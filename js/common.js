@@ -35,8 +35,8 @@ $(document).ready(function() {
 	// //equalheight - одинаковая высота колонок
 	// //Пример списка элементов:
 	// //var eqElement = ".cat_container > div, .home_news > div"
-	// var eqElement = ".element"
-	// $(window).load(function(){equalheight(eqElement);}).resize(function(){equalheight(eqElement);});
+	var eqElement = ".info_item"
+	$(window).load(function(){equalheight(eqElement);}).resize(function(){equalheight(eqElement);});
 
 	// Masked Input Plugin
 	// Документация: http://digitalbush.com/projects/masked-input-plugin/
@@ -61,13 +61,13 @@ $(document).ready(function() {
 
 	// //Добавляет классы дочерним блокам .block для анимации
 	// //Документация: http://imakewebthings.com/jquery-waypoints/
-	$(".block").waypoint(function(direction) {
-		if (direction === "down") {
-			$(".class").addClass("active");
-		} else if (direction === "up") {
-			$(".class").removeClass("deactive");
-		};
-	}, {offset: 100});
+	// $(".block").waypoint(function(direction) {
+	// 	if (direction === "down") {
+	// 		$(".class").addClass("active");
+	// 	} else if (direction === "up") {
+	// 		$(".class").removeClass("deactive");
+	// 	};
+	// }, {offset: 100});
 });
 	// //Плавный скролл до блока .div по клику на .scroll
 	// //Документация: https://github.com/flesler/jquery.scrollTo
