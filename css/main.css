@@ -377,3 +377,44 @@ section {
 .descr_service_button_w {
 	margin-top: 150px;
 }
+article.content {
+	background: #E9E9E9;
+}
+article.content h2.art_header {
+	text-transform: uppercase;
+	color:#050505;
+	font-family: "BebasRegular";
+	font-size: 40px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+article h2.art_header::after {
+	background-image: url(../img/for_article_title.png);
+	background-position: -50px 0;
+	content: "";
+	height: 20px;
+	margin-left: 20px;
+	position: absolute;
+	top: 54px;
+	width: 50px;
+}
+article h2.art_header::before {
+    background-image: url(../img/for_article_title.png);
+    content: "";
+    height: 20px;
+    margin-left: -68px;
+    position: absolute;
+    top: 54px;
+    width: 50px;
+}
+
+p.h_descr {
+	text-align: center;
+	color:#050505;
+	font-size: 20px;
+	max-width: 790px;
+	margin: auto;
+	margin-top: 0;
+}
