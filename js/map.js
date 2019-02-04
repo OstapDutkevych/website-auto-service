@@ -14,11 +14,3 @@ function initMap() {
         map: map
     });
     }
-
-//     // Create a marker and set its position.
-//     var marker = new google.maps.Marker({
-//       map: map,
-//       position: myLatLng,
-//       title: 'Hello World!'
-//     });
-//   }

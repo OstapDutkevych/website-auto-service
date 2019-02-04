@@ -333,7 +333,7 @@ section {
 .service:hover h4{
 	text-decoration: underline;
 }
-.service.active
+.service.active,
 .service_item:hover{
 	background-color: #2A2A2A;
 }
